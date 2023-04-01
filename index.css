@@ -1,0 +1,75 @@
+.title {
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color:rgb(237, 232, 200);
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(198, 74, 103);
+}
+
+.container {
+        margin: auto;
+        width: 60%;
+        padding: 2px;
+        text-align: center;
+}
+
+.etchBody {
+    border: 4px solid rgb(198, 74, 103);
+    padding: 20px;
+    margin: 20px;
+    min-height: 300px;
+    border-radius: 3%;
+  }
+
+#case {
+    background-color: rgb(232, 181, 181);
+}
+
+#screen {
+    background-color: aliceblue;
+    display:flex;
+    flex-direction: column;
+}
+
+div.pixelRow {
+    display:flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+
+.pixel {
+    flex: 1 1 auto;
+    height: 26px;
+    background-color: aliceblue;
+}
+
+.pixel:hover {
+    background-color: rgb(127, 170, 255);
+}
+
+.etchButton {
+    background-color:aliceblue;
+    border: none;
+    padding: 30px;
+    border-radius: 100%;
+}
+
+#leftbutton {
+    float: left;
+}
+
+#rightbutton {
+    float: right;
+}
+
+button.control {
+    background-color:aliceblue;
+    border: none;
+    padding: 15px;
+    border-radius: 20%;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    color:rgb(198, 74, 103);
+}
